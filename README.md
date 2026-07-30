@@ -81,7 +81,7 @@ Each phase of the workflow builds upon the previous stage, ensuring that the fin
 
 **Dataset Name:** Walmart Retail Sales Dataset
 
-**Source:** Kaggle
+**Dataset Source:** https://www.kaggle.com/datasets/saadabdurrazzaq/walmart-retail-data
 
 The dataset contains retail transaction records covering customer information, product details, sales performance, shipping operations, order information, and profitability metrics. It provides a realistic business scenario for performing end-to-end retail sales analytics.
 
@@ -244,3 +244,90 @@ If Power BI Desktop is unavailable, the exported dashboard can be viewed using:
 ```
 Walmart_Retail_Dashboard.pdf
 ```
+
+## Documentation
+
+A detailed project documentation describing every implementation phase, methodology, preprocessing step, SQL analysis, dashboard development, and business insights is included in this repository.
+
+File:
+- Walmart_Retail_Sales_Analysis_Documentation.pdf
+
+## Skills Demonstrated
+
+### Data Analytics
+- Data Cleaning
+- Data Preprocessing
+- Data Validation
+- Missing Value Treatment
+- Duplicate Detection & Removal
+- Outlier Detection
+- Feature Engineering
+- Exploratory Data Analysis (EDA)
+- Statistical Data Analysis
+
+### Python
+- Pandas
+- NumPy
+- Data Manipulation
+- Data Transformation
+- Data Export
+
+### SQL
+- Database Design
+- Data Import
+- Business Query Development
+- Data Aggregation
+- Filtering & Sorting
+- Joins
+- Group By
+- Window Functions
+- Common Table Expressions (CTEs)
+- Business KPI Analysis
+
+### Business Intelligence
+- Microsoft Power BI
+- Data Modeling
+- Relationship Management
+- DAX Measures
+- KPI Dashboard Development
+- Interactive Reporting
+- Drill-down Analysis
+- Slicers & Filters
+- Executive Dashboard Design
+
+### Business Analysis
+- Sales Performance Analysis
+- Profitability Analysis
+- Customer Segmentation
+- Product Performance Analysis
+- Regional Performance Analysis
+- Shipping & Operational Analysis
+- Revenue Analysis
+- Discount Impact Analysis
+- Business Insight Generation
+- Decision Support Analytics
+
+### Data Management
+- MySQL
+- Relational Database Management
+- CSV Data Handling
+- Excel Data Integration
+
+### Documentation & Collaboration
+- Technical Documentation
+- GitHub
+- Repository Management
+- Project Documentation
+- Portfolio Development
+
+## Dashboard Preview
+
+The interactive dashboard is available as:
+
+- Walmart_Retail_Dashboard.pbix
+- Walmart_Retail_Dashboard.pdf
+
+## Project Outcome
+
+This project demonstrates a complete end-to-end Data Analytics workflow, beginning with raw retail transaction data and ending with an interactive Power BI dashboard. It showcases practical skills in Python, SQL, Power BI, and business intelligence while solving real-world retail analytics problems.
+
