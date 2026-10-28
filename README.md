@@ -181,21 +181,39 @@ The dashboard was developed using Microsoft Power BI and is included in this rep
 
 ## Key Business Insights
 
-The analytical workflow identified several business patterns and performance trends from the Walmart retail sales dataset. These insights can support business strategy, operational improvements, and informed decision-making.
+The analysis of 8,337 retail transaction records revealed differences in profitability across product categories, geographical regions, and shipping methods.
 
-### Major Insights
+### 1. Technology Delivered the Highest Profitability
 
-- Sales performance varies significantly across different regions and markets.
-- Profitability is influenced by both product category and discount levels.
-- Certain product categories consistently contribute higher revenue and profit.
-- Customer purchasing behavior differs across customer segments.
-- Shipping methods impact operational costs and delivery performance.
-- High-performing products and customers contribute a significant share of total revenue.
-- Some products generate high sales but relatively low profit margins.
-- Regional performance comparisons highlight opportunities for business expansion and operational improvement.
-- Interactive filtering enables business users to analyze performance across multiple dimensions in real time.
+- Technology generated approximately **$886,314 in profit**, with a **14.8% profit margin**.
+- Office Supplies recorded a **14.1% profit margin**, while Furniture had the lowest margin at **1.5%**.
+- **Business implication:** Product-level decisions should consider profitability alongside sales volume. Furniture's low margin warrants further investigation into pricing, discounts, and costs.
 
-The project demonstrates how structured data analytics can convert raw retail transaction data into meaningful business intelligence, enabling organizations to make evidence-based decisions.
+### 2. Furniture Was Loss-Making in the East Region
+
+- Furniture recorded a loss of approximately **$11,352 in the East region**, despite the region generating approximately **$315,036 in total profit** across all product categories.
+- Furniture was profitable in the Central, South, and West regions.
+- **Business implication:** Investigate the East region's Furniture performance separately to identify potential pricing, discounting, or cost-related issues.
+
+### 3. Regional Profitability Varied Significantly
+
+- The South region achieved the highest profit margin at **13.3%**.
+- Central followed at **10.3%**, East at **9.3%**, and West at **8.0%**.
+- **Business implication:** Compare regional product mix, discount patterns, and operating costs to understand the differences and identify practices worth investigating in lower-margin regions.
+
+### 4. Shipping Methods Had Different Cost Profiles
+
+- Delivery Truck had an average shipping cost of approximately **$45**, compared with approximately **$8** for Regular Air and Express Air.
+- Average delivery times across shipping methods were approximately **two days**.
+- **Business implication:** Evaluate shipping costs alongside delivery requirements and service expectations before making changes to fulfilment methods.
+
+### 5. Sales and Profit Needed to Be Evaluated Together
+
+- The analysis identified differences between revenue generation and profitability across products, regions, and customers.
+- The dashboard also highlighted loss-making customers and product-region combinations for further investigation.
+- **Business implication:** Monitoring sales alone can obscure areas of weak or negative profitability. Combining sales, profit, and profit margin provides a more complete view of business performance.
+
+These findings were developed through SQL-based business analysis and presented using interactive Power BI dashboards. The results demonstrate how data cleaning, analytical querying, and business intelligence reporting can support evidence-based investigation of retail performance.
 
 ---
 
